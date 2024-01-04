@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
 }
 ul{
     margin: 0;
@@ -13,12 +16,153 @@ li{
 }
 a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 .background_image{
     background-image: url("../images/banner-bg.jpg");
     width: 100%;
-    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.nav-item .nav-link{
+    color: #fff;
+}
+.navbar-brand{
+    color: #fff;
+}
+.navbar-nav .nav-link.active{
+    color: #FFD523;
+}
+.background_overlay{
+    background-color: #000000;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.background_image{
+    position: relative;
+}
+.hero{
+    position: relative;
+    z-index: 99;
+    padding: 200px 0px 150px 0px;
+}
+.hero_btn{
+    color: #FFF;
+    background-color: #0F52BA;
+    padding: 15px 35px 15px 35px;
+    font-weight: 600;
+    border: none;
+    transition: all 0.4s ease-in-out;
+}
+.hero_btn:hover{
+    background-color: #003992;
+}
+.hero_btn:last-child{
+    background-color: transparent;
+    color: #FFF;
+    border: 1px solid #fff;
+    transition: all 0.4s ease-in-out;
+}
+.hero_btn:last-child:hover{
+    background-color: #003992;
+    border-color: #003992;
+}
+.hero_heading_text{
+    padding: 0px 150px 0px 150px;
+    font-size: 63px;
+    font-weight: 700;
+}
+.hero_text{
+    max-width: 60%;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+.shape {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    direction: ltr;
+    bottom: -1px;
+}
+.shape-bottom svg {
+    height: 80px;
+    width: 100%;
+}
+.shape-fill{
+    fill: #fff;
+    transform-origin: center;
+    transform: rotateY(0deg);
+}
+.section{
+    margin-top: 80px;
+    margin-bottom: 50px
+}
+.first_details{
+    margin: 20px 0px 20px 20px;
+    padding: 50px 50px 50px 50px;
+    background-color: #001742;
+}
+.first_details img{
+    width: 50px;
+    height: 40px;
+}
+.first_details .text{
+    color: #FFF;
+}
+.secound_details{
+    background-image: url("https://templatekit.jegtheme.com/aviacademy/wp-content/uploads/sites/153/2021/09/two-women-flight-attendants-smiling-at-the-photo-camera-in-salon-of-passenger-aircraft-e1630651564416.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 50px 60px 50px 60px;
+}
+
+.secound_details img{
+    width: 50px;
+    height: 40px;
+    position: relative;
+}
+
+.background_opacity{
+    background-color: #001742;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.cabin_trainings .text{
+    color: #FFF;
+}
+@media (max-width: 1024px){
+    .hero_heading_text{
+        padding: 0px 100px 0px 100px;
+    }
+    .first_details{
+        margin: 10px 0px 10px 0px;
+        padding: 20px 20px 20px 20px;
+    }
+}
+@media (max-width: 767px){
+    .hero{
+        padding: 60px 0px 150px 0px;
+    }
+    .hero_heading_text{
+        padding: 0;
+    }
+    .hero_text{
+        max-width: 100%;
+    }
+    .first_details{
+        margin: 0px 10px 0px 10px;
+        padding: 30px 20px 30px 20px;
+    }
 }
