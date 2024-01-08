@@ -16,7 +16,6 @@ li{
 }
 a{
     text-decoration: none;
-    color: #fff;
 }
 .background_image{
     background-image: url("../images/banner-bg.jpg");
@@ -207,7 +206,6 @@ section{
 }
 .count_section_bg{
     background-image: url("https://templatekit.jegtheme.com/aviacademy/wp-content/uploads/sites/153/2021/09/earth-e1630646622708.jpg");
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px 0px 100px 0px;
@@ -223,8 +221,235 @@ section{
     width: 100%;
     line-height: 0;
     direction: ltr;
-    top: 0px;
+    top: -1px;
 }
+.count_image{
+    padding: 15px;
+}
+.count_image .contant{
+    text-align: center;
+}
+
+.title h5{
+    color: #0F52BA;
+}
+.title h3{
+    font-size: 43px;
+    font-weight: 600;
+}
+.title p{
+    font-size: 14px;
+    color: #6C6C6C;
+    max-width: 56%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.courses_img{
+    margin-right: 20px
+}
+.courses_img img{
+    width: 100%;
+    height: auto;
+}
+.courses_text.bg{
+    background-color: #001742;
+}
+.courses_text{
+    margin: -40% 10% 0% 5%;
+    padding: 40px 30px 40px 30px;
+    background-color: #FFF;
+    position: relative;
+    z-index: 99;
+    text-align: center;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.07);
+}
+.courses_text img{
+    width: 75px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+.courses_text.bg h4{
+    color: #FFF;
+}
+.courses_text h4{
+    color: #000;
+    font-size: 19px;
+    font-weight: 600;
+}
+.courses_text.bg p{
+    color: #FFF;
+}
+.courses_text p{
+    color: #000;
+    font-size: 14px;
+}
+.about_section_bg{
+    background-color: #003992;
+    padding: 80px 0px 80px 0px;
+}
+.about h2{
+    font-size: 43px;
+    font-weight: 600;
+}
+.about p{
+    max-width: 83%;
+    font-size: 14px;
+}
+.about_img{
+    position: relative;
+    z-index: 88;
+}
+.about_img img{
+    width: 100%;
+    padding: 10px;
+}
+.about_parent_img{
+    position: relative;
+}
+.about_img_child{
+    position: absolute;
+    left: -152px;
+    top: 233px;
+}
+.about_img_child img{
+    width: 52%;
+    border: 10px solid #001742;
+    padding: 0;
+}
+.expert{
+    position: relative;
+}
+.expert img{
+    width: 100%;
+}
+.expert_disc{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 30px 15px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.expert_disc .expert_title p{
+    display: flex;
+    flex-direction: row-reverse;
+    color: #FFF;
+    
+}
+.expert_name_wrapper{
+    align-items: end;
+    justify-content: space-between;
+}
+.expert_name_wrapper h3{
+    color: #FFF;
+}
+.expert_name_wrapper ul .social_link{
+    background-color: #FFD523;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+
+.single_card{
+    padding: 40px;
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+.single_card.bg{
+    background-color: #001742;
+}
+.course_name{
+    margin-bottom: 20px;
+}
+.course_name h4{
+    font-size: 19px;
+    color: #001742;
+    font-weight: 600;
+}
+.single_card.bg .course_name h4{
+    color: #FFF;
+}
+.course_disc{
+    margin-bottom: 20px;
+}
+.course_disc p{
+    font-size: 14px;
+}
+.single_card.bg .course_disc p{
+    color: #FFF;
+}
+.pricing_price h2{
+    color: #0F52BA;
+    font-size: 43px;
+}
+.single_card.bg .pricing_price h2{
+    color: #FFD523;
+}
+.pricing_price h2 sub{
+    font-size: 14px;
+    color: #6C6C6C;
+}
+.single_card.bg .pricing_price h2 sub{
+    color: #FFF;
+}
+
+.divider{
+    margin: 25px 0;
+}
+.divider-separator{
+    border: 1px solid #6C6C6C;
+    width: 100%;
+}
+.provite ul li{
+    margin-bottom: 10px;
+}
+
+.provite ul li a{
+    color: #000;
+}
+.single_card.bg .provite ul li{
+    color: #FFF;
+}
+.provite ul li a i{
+    color: #0F52BA;
+}
+.single_card.bg .provite ul li  i{
+    color: #FFD523;;
+}
+.certifecate_section_bg{
+    background-image: url("https://templatekit.jegtheme.com/aviacademy/wp-content/uploads/sites/153/2021/09/friendly-coworkers-resting-after-the-international-flight-e1631064018576.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px 100px 0px;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.license h5{
+    color: #FFF;
+}
+.license h3{
+    color: #FFF;
+    padding: 0px 150px;
+    font-size: 43px;
+    font-weight: 600;
+}
+.license p{
+    color: #FFF;
+    font-size: 14px;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
 @media (max-width: 1024px){
     .hero_heading_text{
         padding: 0px 100px 0px 100px;
@@ -233,8 +458,17 @@ section{
         margin: 10px 0px 10px 0px;
         padding: 20px 20px 20px 20px;
     }
+    .about_img_child{
+        position: absolute;
+        left: 152px;
+        top: 233px;
+    }
+    .license h3{
+        padding: 0px;
+    }
+    
 }
-@media (max-width: 767px){
+@media (max-width: 771px){
     .hero{
         padding: 60px 0px 150px 0px;
     }
@@ -250,5 +484,29 @@ section{
     }
     .third_details{
         margin: 0px 20px 20px 20px;
+    }
+    .wellcome_skyhub img{
+        width: 100%;
+        height: auto;
+        position: relative;
+        z-index: 99;
+    }
+    .image_overlay{
+        left: -20px;
+        position: absolute;
+        top: 60px;
+    }
+    .about_img_child img {
+        width: 80%;
+        border: 10px solid #001742;
+        padding: 0;
+    }
+    .about_img_child {
+        position: absolute;
+        left: 117px;
+        top: 156px;
+    }
+    .license p{
+        max-width: 100%;
     }
 }
