@@ -99,7 +99,7 @@ a{
     transform-origin: center;
     transform: rotateY(0deg);
 }
-.section{
+section{
     margin-top: 80px;
     margin-bottom: 50px
 }
@@ -111,6 +111,7 @@ a{
 .first_details img{
     width: 50px;
     height: 40px;
+    margin-right: 15px;
 }
 .first_details .text{
     color: #FFF;
@@ -128,6 +129,7 @@ a{
     width: 50px;
     height: 40px;
     position: relative;
+    margin-right: 15px;
 }
 
 .background_opacity{
@@ -141,6 +143,87 @@ a{
 }
 .cabin_trainings .text{
     color: #FFF;
+}
+.third_details{
+    background-color: #FFD523;
+    padding: 50px 60px 50px 60px;
+    margin: 20px 20px 20px 0px;
+}
+
+.third_details img{
+    width: 50px;
+    height: 40px;
+    margin-right: 15px;
+}
+.wellcome_skyhub img{
+    width: 356px;
+    height: 535px;
+    position: relative;
+    z-index: 99;
+}
+.image_overlay{
+    left: 120px;
+    position: absolute;
+    top: 60px;
+}
+.image_overlay .image_bg_overlay{
+    height: 510px;
+    width: 375px;
+    background-color: #0F52BA;
+}
+.wellcome_text h5{
+    color: #0F52BA;
+    font-size: 17px;
+    font-weight: 600;
+}
+.wellcome_text h2{
+    font-size: 43px;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+.wellcome_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.wellcome_text_list li{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.wellcome_text_list li i{
+    color: #0F52BA;
+}
+.about_us_btn{
+    padding: 15px 35px 15px 35px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFF;
+    background-color: #0F52BA;
+    transition: all 0.4s ease-in-out;
+}
+.about_us_btn:hover{
+    background-color: #003992;
+}
+.count_section_bg{
+    background-image: url("https://templatekit.jegtheme.com/aviacademy/wp-content/uploads/sites/153/2021/09/earth-e1630646622708.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px 100px 0px;
+}
+.shape-top svg {
+    height: 80px;
+    width: 100%;
+}
+.shape.shape-top {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    direction: ltr;
+    top: 0px;
 }
 @media (max-width: 1024px){
     .hero_heading_text{
@@ -164,5 +247,8 @@ a{
     .first_details{
         margin: 0px 10px 0px 10px;
         padding: 30px 20px 30px 20px;
+    }
+    .third_details{
+        margin: 0px 20px 20px 20px;
     }
 }
