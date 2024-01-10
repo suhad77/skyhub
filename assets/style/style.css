@@ -81,7 +81,6 @@ a{
     line-height: 1.5em;
 }
 .shape {
-    overflow: hidden;
     position: absolute;
     left: 0;
     width: 100%;
@@ -193,6 +192,45 @@ section{
 .wellcome_text_list li i{
     color: #0F52BA;
 }
+.play_button{
+    z-index: 8888;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.play_button a{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #0058E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.play_buttons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.play_buttons a{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #0058E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 88;
+}
+.play_button a i{
+    color: #FFF;    
+}
+.play_buttons a i{
+    color: #FFF;    
+}
+
+
 .about_us_btn{
     padding: 15px 35px 15px 35px;
     font-weight: 600;
@@ -215,7 +253,6 @@ section{
     width: 100%;
 }
 .shape.shape-top {
-    overflow: hidden;
     position: absolute;
     left: 0;
     width: 100%;
@@ -449,7 +486,149 @@ section{
     max-width: 60%;
     margin: 0 auto;
 }
+.blog_img img{
+    width: 100%;
+    height: 360px;
+}
+.blog_disc .read_more a{
+    color: #0F52BA;
+    font-size: 14px;
+    font-weight: 600;
+}
+.blog_disc h4{
+    margin-top: 0.5rem;
+    font-weight: 600;
+    line-height: 1.3em;
+    font-size: 19px;
+}
+.blog_disc p{
+    font-size: 14px;
+}
+.blog_disc .read_more{
+    margin-top: 1.5rem;
+}
+footer .shape.shape-top {
+    top: -79px;
+}
+.footer_bg{
+    background-color: #001742;
+}
+.footer_top{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_phone{
+    padding: 10px;
+}
+.footer_phone .icon{
+    color: #001742;
+    background-color: #FFD523;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-right: 15px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.footer_phone .phone h5{
+    color: #FFF;
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.footer_phone .phone p{
+    color: #FFF;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.main_footer{
+    margin-top: 60px;
+}
+.main_footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));;
+}
+.academy_details{
+    margin-right: 40px;
+}
+.academy_name{
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+.social_media ul{
+    display: flex;
+    gap: 10px;
+}
+.social_media ul li{
+    background-color: #FFD523;
+    width: 2.3em;
+    height: 2.3em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quick_links{
+    padding: 10px;
+    margin-left: 10px;
+}
+.quick_link_title{
+    margin-bottom: 20px;
+}
+.quick_link_title h4{
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 19px;
+    color: #FFF;
+}
+.quick_links ul li{
+    margin-bottom: 15px;
+}
+.quick_links ul li a{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+.subscription{
+    display: flex;
+}
+.subscription input{
+    padding: 15px 30px 15px 30px;
+}
+.subscription button{
+    padding: 15px 20px 13px 20px;
+    border: none;
+    background-color: #0048bd;
+    color: #FFF;
+}
+.subscription button i{
+    font-size: 20px;
+}
 
+.footer_bottom{
+    margin-top: 80px;
+    padding-top: 10px;
+    border-top: 1px solid #EAEAEA12;
+}
+.footer_bottom .left_text{
+    padding: 10px;
+}
+.footer_bottom .left_text p{
+    color: #FFF;
+    margin-bottom: 12px;
+    font-size: 13px;
+}
+.footer_bottom .right_text{
+    padding: 10px;
+}
+.footer_bottom .right_text p{
+    margin-bottom: 12px;
+    color: #FFF;
+    font-size: 13px;
+}
 @media (max-width: 1024px){
     .hero_heading_text{
         padding: 0px 100px 0px 100px;
@@ -466,7 +645,9 @@ section{
     .license h3{
         padding: 0px;
     }
-    
+    .blog_img img{
+        height: 450px;
+    }
 }
 @media (max-width: 771px){
     .hero{
