@@ -514,8 +514,9 @@ footer .shape.shape-top {
     background-color: #001742;
 }
 .footer_top{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));;
+    
 }
 .footer_phone{
     padding: 10px;
