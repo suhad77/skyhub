@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/80a1447cb8.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/venobox/2.1.4/venobox.min.js" integrity="sha512-clFTPmeD7m4KGu2oaguuV2PFUa33W2Jn/b6qeDB4hVntW7qLaquN/1LTDvQGbjf8UPWlsLLS40V2QxygSRXLDg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/venobox/2.1.4/venobox.min.css" integrity="sha512-BQ1rOOCWWZHYsP4Oou2dTvedlr+gB2+aLSggwaezp8akn6BrNw+pkxaxM9f5wxwjer+te7ezjpIL1baHi5dOjA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body>
+    <header class="background_image">
+        <div class="background_overlay"></div>
+        <div class="shape shape-bottom" data-negative="true">
+          <svg viewBox="0 0 1000 100" preserveAspectRatio="none">
+            <path class="shape-fill" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path>
+          </svg>		
+        </div>
+          <div class="top-bar container position-relative">
+              <div class="top-bar-left d-flex justify-content-between">
+                  <ul class="d-flex gap-3">
+                      <li><a href="">Hotline Number: </a></li>
+                      <li><a href="">Email: </a></li>
+                  </ul>
+                  <ul>
+                      <li><a href="">Working Hours: </a></li>
+                  </ul>
+              </div>
+              <div class="top-bar-right">
+  
+              </div>
+          </div>
+          <nav class="navbar navbar-expand-lg pb-3">
+              <div class="container">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item">
+                      <a class="nav-link mx-2 active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-2" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-2" href="courses.html">Courses</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Academic
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Instructor</a></li>
+                        <li><a class="dropdown-item" href="#">Next Batch</a></li>
+                        <li><a class="dropdown-item" href="#">Result</a></li>
+                        <li><a class="dropdown-item" href="#">Exam Routine</a></li>
+                        <li><a class="dropdown-item" href="#">FAQ</a></li>
+                        <li><a class="dropdown-item" href="#">Student Testimonials</a></li>
+                        <li><a class="dropdown-item" href="#">Classrooms</a></li>
+                        <li><a class="dropdown-item" href="#">Success Stories</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-2" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-2" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link ms-2 pe-0" href="#">Verify Certificate</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link ms-2 pe-0" href="#" target="_blank">Login</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              </nav>
+              <div class="hero d-flex align-items-center text-center justify-content-center">
+                <div class="container">
+                  <div class="d-flex flex-column align-items-center text-center justify-content-center" style="max-width: 1170px; margin: 0 auto;">
+                    <h1 class="text-white hero_heading_text" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out">Courses</h1>
+                    <p class="text-white hero_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    <p style="color: #FFD523;"><a href="index.html" style="color: #FFF;">Home</a> <span class="mx-2">/</span> Courses</p>
+                  </div>
+                </div>
+              </div>
+      </header>
+      <section class="section">
+        <div class="container">
+          <div class="title text-center" data-aos="zoom-in-up" data-aos-duration="1400" data-aos-easing="ease-in-out">
+            <h5>Our Courses</h5>
+            <h3>Great Courses & Class</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+          </div>
+          <div class="courses_details">
+            <div class="row">
+              <div class="col-md-4 col-sm-6" style="margin-bottom: 40px;" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                  <div class="courses_img">
+                    <img src="https://templatekit.jegtheme.com/aviacademy/wp-content/uploads/sites/153/elementor/thumbs/helicopter-pilot-reading-map--e1630636153760-pcjtsr6l9peyn00blfr55s4o9v65346rxp3l0bi7f4.jpg" alt="">
+                  </div>
+                  <div class="courses_text bg">
+                    <img src="https://templatekit.jegtheme.com/aviacademy/wp-content/uploads/sites/153/2021/09/private-pilot-yellow-WU35NBL.png" alt="">
+                    <h4>Commercial Pilot License</h4>
+                    <p>Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    <div class="text-center">
+                      <a href="#" class="justify-content-center align-items-center d-flex gap-2">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-4 col-sm-6" style="margin-bottom: 40px;" data-aos="fade-up" data-aos-duration="1400" data-aos-easing="ease-in-out">
+                  <div class="courses_img">
+                    <img src="https://templatekit.jegtheme.com/aviacademy/wp-content/uploads/sites/153/elementor/thumbs/the-pilots-of-aircraft-prepares-for-landing-at-the-airport-e1630636173790-pcjtt9zd2e4p3790jnvojndw5klhd29eoa5aluqbyo.jpg" alt="">
+                  </div>
+                  <div class="courses_text">
+                    <img src="https://templatekit.jegtheme.com/aviacademy/wp-content/uploads/sites/153/2021/09/commercial-icon-blue-WU35NBL.png" alt="">
+                    <h4>Commercial Pilot License</h4>
+                    <p>Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    <div class="text-center">
+                      <a href="#" class="justify-content-center align-items-center d-flex gap-2">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-4 col-sm-6" style="margin-bottom: 40px;" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                  <div class="courses_img">
+                    <img src="https://templatekit.jegtheme.com/aviacademy/wp-content/uploads/sites/153/elementor/thumbs/small-plane-before-take-off-e1630636423303-pcjtzsz0iz2dpprofhgev034nwf8te6awl8ol11wr4.jpg" alt="">
+                  </div>
+                  <div class="courses_text">
+                    <img src="https://templatekit.jegtheme.com/aviacademy/wp-content/uploads/sites/153/2021/09/multi-engine-blue-WU35NBL.png" alt="">
+                    <h4>(ME) Multi Engine</h4>
+                    <p>Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    <div class="text-center">
+                      <a href="#" class="justify-content-center align-items-center d-flex gap-2">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-4 col-sm-6" style="margin-bottom: 40px;" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                  <div class="courses_img">
+                    <img src="https://templatekit.jegtheme.com/aviacademy/wp-content/uploads/sites/153/elementor/thumbs/plane-on-autopilot-e1630636129768-pcjts4mgpok2wcx39603hxtm0m9bydp7ulfxhofnkg.jpg" alt="">
+                  </div>
+                  <div class="courses_text">
+                    <img src="https://templatekit.jegtheme.com/aviacademy/wp-content/uploads/sites/153/2021/09/private-blue-WU35NBL.png" alt="">
+                    <h4>Instrument Rating</h4>
+                    <p>Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    <div class="text-center">
+                      <a href="#" class="justify-content-center align-items-center d-flex gap-2">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-4 col-sm-6" style="margin-bottom: 40px;" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                  <div class="courses_img">
+                    <img src="https://templatekit.jegtheme.com/aviacademy/wp-content/uploads/sites/153/elementor/thumbs/cheerful-young-man-giving-flight-lesson-to-woman-pcjuf8hmq26ub9crbnkxalwjqmd66ifo0ysn7k68ls.jpg" alt="">
+                  </div>
+                  <div class="courses_text">
+                    <img src="https://templatekit.jegtheme.com/aviacademy/wp-content/uploads/sites/153/2021/09/flight-instructur-blue-WU35NBL.png" alt="">
+                    <h4>Flight Instructor Course</h4>
+                    <p>Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    <div class="text-center">
+                      <a href="#" class="justify-content-center align-items-center d-flex gap-2">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-4 col-sm-6" style="margin-bottom: 40px;" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                  <div class="courses_img">
+                    <img src="https://templatekit.jegtheme.com/aviacademy/wp-content/uploads/sites/153/elementor/thumbs/aerial-view-of-airplane-at-airport-e1631063923370-pcsg1ufe5f235ca5yc6e4atb9o5ajap9jk6lfazfv4.jpg" alt="">
+                  </div>
+                  <div class="courses_text">
+                    <img src="https://templatekit.jegtheme.com/aviacademy/wp-content/uploads/sites/153/2021/09/ground-atpl-blue-WU35NBL.png" alt="">
+                    <h4>(ME) Multi Engine</h4>
+                    <p>Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    <div class="text-center">
+                      <a href="#" class="justify-content-center align-items-center d-flex gap-2">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                  </div>
+              </div>
+              <div class="d-flex gap-1 justify-content-center">
+                <p style="font-size: 14px;">Book Your First Courses With Us </p> <a href="#" style="font-size: 14px;"> Register Now <i class="fa-solid fa-arrow-right-long"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section position-relative about_section_bg">
+        <div class="background_overlay"></div>
+        <div class="shape shape-top" data-negative="true">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+            <path class="elementor-shape-fill" d="M500,98.9L0,6.1V0h1000v6.1L500,98.9z" style="fill: #fff;"></path>
+          </svg>
+        </div>
+        <div class="shape shape-bottom" data-negative="true">
+          <svg viewBox="0 0 1000 100" preserveAspectRatio="none">
+            <path class="shape-fill" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path>
+          </svg>
+        </div>
+        <div class="container">
+          <div class="d-md-flex justify-content-around" style="margin: 50px 0px;">
+            <div class="position-relative z-2 w-md-50 mb-4" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out">
+              <div class="about">
+                <h5 class="text-white">About Us</h5>
+                <h2 class="text-white">Student About The Training Team</h2>
+                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+              <div class="about_us_button">
+                <a href="#" class="about_us_btn">About Us</a>
+              </div>
+            </div>
+            <div class="about_img w-md-50 mb-4">
+              <div class="about_parent_img" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <img src="https://templatekit.jegtheme.com/aviacademy/wp-content/uploads/sites/153/2021/09/contented-pilot-looking-forward-to-the-upcoming-flight-1024x682.jpg" alt="">
+              </div>
+              <div class="about_img_child" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <img src="https://templatekit.jegtheme.com/aviacademy/wp-content/uploads/sites/153/2021/09/charming-stylish-aviation-staff-of-air-hostesses-1024x682.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+          <div class="title text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+            <h5>Our Pricing</h5>
+            <h3>Our Pricing Program</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+          </div>
+          <div class="pricing_card">
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="single_card" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                  <div class="course_name">
+                    <h4>Commercial Pilot License</h4>
+                  </div>
+                  <div class="course_disc">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia blanditiis unde asperiores</p>
+                  </div>
+                  <div class="pricing_price">
+                    <h2>$699<sub>/month</sub></h2>
+                  </div>
+                  <div class="divider">
+                    <div class="divider-separator"></div>
+                  </div>
+                  <div class="provite">
+                    <ul>
+                      <li><i aria-hidden="true" class="fas fa-check-circle"></i> Certificate</li>
+                      <li><i aria-hidden="true" class="fas fa-check-circle"></i> Flight License</li>
+                      <li><i aria-hidden="true" class="fas fa-check-circle"></i> Life Insurance</li>
+                      <li><i aria-hidden="true" class="fas fa-check-circle"></i> Professional Teacher</li>
+                    </ul>
+                  </div>
+                  <div style="margin-top: 30px;">
+                    <a href="#" class="about_us_btn">Get Started</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single_card bg" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out"> 
+                  <div class="course_name">
+                    <h4>Commercial Pilot License</h4>
+                  </div>
+                  <div class="course_disc">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia blanditiis unde asperiores</p>
+                  </div>
+                  <div class="pricing_price">
+                    <h2>$699<sub>/month</sub></h2>
+                  </div>
+                  <div class="divider">
+                    <div class="divider-separator"></div>
+                  </div>
+                  <div class="provite">
+                    <ul>
+                      <li><i aria-hidden="true" class="fas fa-check-circle"></i> Certificate</li>
+                      <li><i aria-hidden="true" class="fas fa-check-circle"></i> Flight License</li>
+                      <li><i aria-hidden="true" class="fas fa-check-circle"></i> Life Insurance</li>
+                      <li><i aria-hidden="true" class="fas fa-check-circle"></i> Professional Teacher</li>
+                    </ul>
+                  </div>
+                  <div style="margin-top: 30px;">
+                    <a href="#" class="about_us_btn">Get Started</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single_card" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                  <div class="course_name">
+                    <h4>Commercial Pilot License</h4>
+                  </div>
+                  <div class="course_disc">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia blanditiis unde asperiores</p>
+                  </div>
+                  <div class="pricing_price">
+                    <h2>$699<sub>/month</sub></h2>
+                  </div>
+                  <div class="divider">
+                    <div class="divider-separator"></div>
+                  </div>
+                  <div class="provite">
+                    <ul>
+                      <li><i aria-hidden="true" class="fas fa-check-circle"></i> Certificate</li>
+                      <li><i aria-hidden="true" class="fas fa-check-circle"></i> Flight License</li>
+                      <li><i aria-hidden="true" class="fas fa-check-circle"></i> Life Insurance</li>
+                      <li><i aria-hidden="true" class="fas fa-check-circle"></i> Professional Teacher</li>
+                    </ul>
+                  </div>
+                  <div style="margin-top: 30px;">
+                    <a href="#" class="about_us_btn">Get Started</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="section position-relative mt-4">
+        <div class=" shape-top" data-negative="true" >
+          <svg viewBox="0 0 1000 100" preserveAspectRatio="none" >
+            <path class="shape-fill" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"style="fill: #001742;"></path>
+          </svg>
+        </div>
+        <div class="footer_bg">
+          <div class="container">
+            <div class="footer_top">
+              <div class="footer_phone d-flex align-items-center">
+                <div class="icon">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="phone">
+                  <h5>Give Us A Call</h5>
+                  <p>+6281 2345 1234</p>
+                </div>
+              </div>
+              <div class="footer_phone d-flex align-items-center">
+                <div class="icon">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="phone">
+                  <h5>Send Us A Message</h5>
+                  <p>aviacademy@support.com</p>
+                </div>
+              </div>
+              <div class="footer_phone d-flex align-items-center">
+                <div class="icon">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="phone">
+                  <h5>School Location</h5>
+                  <p>Jl. Raya Renon No. 88 DPS</p>
+                </div>
+              </div>
+              <div class="footer_phone d-flex align-items-center">
+                <div class="icon">
+                  <i class="fa-solid fa-clock"></i>
+                </div>
+                <div class="phone">
+                  <h5>Opening Hours</h5>
+                  <p>09:00 AM - 18:00 PM</p>
+                </div>
+              </div>
+            </div>
+            <div class="main_footer">
+              <div class="academy_details">
+                <div class="academy_name">
+                  <img src="" alt="logo">
+                  <h3>SKYHUB</h3>
+                </div>
+                <div class="academy_details">
+                  <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                </div>
+                <div class="social_media">
+                  <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="quick_links">
+                <div class="quick_link_title">
+                  <h4>Quick Link</h4>
+                </div>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Pricing</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="quick_links">
+                <div class="quick_link_title">
+                  <h4>Useful Links</h4>
+                </div>
+                <ul>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms and Conditions</a></li>
+                  <li><a href="#">Disclaimer</a></li>
+                  <li><a href="#">Support</a></li>
+                  <li><a href="#">FAQ</a></li>
+                </ul>
+              </div>
+              <div class="academy_detail">
+                <div class="quick_link_title">
+                  <h4>Newsletter</h4>
+                </div>
+                <div class="academy_detail">
+                  <p class="text-white" style="margin: 20px 0; font-size: 14px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                </div>
+                <div class="subscription">
+                  <form class="d-flex">
+                    <input type="email" placeholder="Your Email Address" >
+                    <button type="submit"><i class="fa-regular fa-paper-plane"></i></button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="footer_bottom">
+              <div class="container d-flex justify-content-between">
+                <div class="left_text">
+                  <p>Aviation & Flight School Template Kit By Jegtheme.</p>
+                </div>
+                <div class="right_text">
+                  <p>Copyright © 2024. All rights reserved.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script src="app.js"></script>
+</body>
+</html>
